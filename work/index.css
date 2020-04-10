@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+}
+.editor {
+    border: 1px solid #0078d7;
+    font-size: 1em;
+    height: 20px;
+    width: 100%;
+}
+.list{
+    background-color: #fff;
+    overflow-y:scroll;
+    display: inline-block;
+    height: 116px;
+    width: 100%;
+}
+.item{
+    line-height: 16px;
+    padding-left: 2px;
+    list-style: none;
+}
+.selected {
+    background-color: #0078d7;
+    color: white;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="../list/layout.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="test">
+    <input type="button">
+  </div>
+</body>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="main.js"></script>
+<script>
+$(function() {
+
+  $btnTest = $('div.test>input[type="button"]');
+
+  $btnTest.click(function() {
+    var set =new $setfont();
+    set.show('body');
+  }); 
+});
+</script>
+</html>
